@@ -17,12 +17,12 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm{" "}
+            Bonjour, Je suis{" "}
             <span className="text-electric-purple">{personalInfo.name}</span>
           </h1>
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
-            Innovative {personalInfo.role}, <br className="sm:block hidden" />
-            building web and mobile applications
+            {personalInfo.role} <br className="sm:block hidden" />
+          
           </p>
         </div>
       </div>

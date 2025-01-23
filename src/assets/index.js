@@ -1,8 +1,19 @@
+
+
+
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import C_language from "./_LOGOS/C.png";
+import CYU from "./_LOGOS/CYU.png";
+import Avady from "./_LOGOS/Avady.png";
+import Altium_Designer from "./_LOGOS/Altium_Designer.png";
+
+
+import IOT_Arduino_PI_InfluxDB from "./projects/IOT_Arduino_PI_InfluxDB.png";
+
+
+
+
+
 import github from "./github.png";
 import linkedIn from "./linkedIn.png";
 import menu from "./menu.svg";
@@ -38,11 +49,16 @@ import rollApp from "./projects/rollApp.png";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
+  CYU,
+  C_language,
+  Avady,
   github,
+  Altium_Designer,
+
+
+ IOT_Arduino_PI_InfluxDB,
+
+
   linkedIn,
   demo,
   menu,

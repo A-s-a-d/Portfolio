@@ -9,7 +9,7 @@ import Contact from "./components/Contact";
 import { StarsCanvas } from "./components/canvas";
 import HireMe from "./components/HireMe";
 
-const App = () => {
+const Page = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
@@ -31,4 +31,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Page;
