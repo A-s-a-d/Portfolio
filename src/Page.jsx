@@ -7,7 +7,7 @@ import Tech from "./components/Tech";
 import Works from "./components/Works";
 import Contact from "./components/Contact";
 import { StarsCanvas } from "./components/canvas";
-import HireMe from "./components/HireMe";
+
 
 const Page = () => {
   return (
@@ -17,15 +17,17 @@ const Page = () => {
           <Navbar />
           <Hero />
         </div>
+         <StarsCanvas /> 
         <About />
         <Experience />
         <Tech />
+        
         <Works />
         <div className="relative z-0">
           <Contact />
-          {/* <StarsCanvas /> */}
+          { <StarsCanvas /> }
         </div>
-        <HireMe />
+        
       </div>
     </BrowserRouter>
   );

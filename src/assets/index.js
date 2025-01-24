@@ -6,6 +6,8 @@ import C_language from "./_LOGOS/C.png";
 import CYU from "./_LOGOS/CYU.png";
 import Avady from "./_LOGOS/Avady.png";
 import Altium_Designer from "./_LOGOS/Altium_Designer.png";
+import git from "./_LOGOS/git.png";
+
 
 
 import IOT_Arduino_PI_InfluxDB from "./projects/IOT_Arduino_PI_InfluxDB.png";
@@ -21,7 +23,6 @@ import close from "./close.svg";
 import demo from "./demo.png";
 
 import css from "./tech/css.png";
-import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
@@ -54,6 +55,7 @@ export {
   Avady,
   github,
   Altium_Designer,
+  git,
 
 
  IOT_Arduino_PI_InfluxDB,
@@ -64,7 +66,7 @@ export {
   menu,
   close,
   css,
-  git,
+  
   html,
   javascript,
   mongodb,
