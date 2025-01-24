@@ -1,13 +1,12 @@
 import {
-   C_language,
-   CYU,
+  C_language,
+  CYU,
   git,
   Avady,
   Cpp,
-  aptihealthWeb,
   linkedIn,
   github,
-Altium_Designer,
+  Altium_Designer,
 
   IOT_Arduino_PI_InfluxDB,
   
@@ -48,12 +47,11 @@ const technologies = [
     items: [
       { name: "C", icon: C_language },
       { name: "C++", icon: Cpp },
-
       // Add other programming languages here
     ],
   },
   {
-    category: "Tools",
+    category: "Environment de développement",
     items: [
       { name: "Git", icon: git },
       { name: "Altium Designer", icon: Altium_Designer },
@@ -61,14 +59,37 @@ const technologies = [
     ],
   },
   {
-    category: "Systeme D'exploitation (OS)",
+    category: "Microcontrôleurs, Microprocesseurs ....etc",
     items: [
       { name: "Git", icon: git },
       { name: "Altium Designer", icon: Altium_Designer },
       // Add other tools here
     ],
   },
-  // Add more categories as needed
+  {
+    category: "Protocoles de communication system embarqué",
+    items: [
+      { name: "Git", icon: git },
+      { name: "Altium Designer", icon: Altium_Designer },
+      // Add other tools here
+    ],
+  },
+  {
+    category: "Logiciels de simulation des circuits électronique",
+    items: [
+      { name: "Git", icon: git },
+      { name: "Altium Designer", icon: Altium_Designer },
+      // Add other tools here
+    ],
+  },
+  {
+    category: "Logiciels de conception des circuits électronique",
+    items: [
+      { name: "Git", icon: git },
+      { name: "Altium Designer", icon: Altium_Designer },
+      // Add other tools here
+    ],
+  },
 ];
 
 const experiences = [
