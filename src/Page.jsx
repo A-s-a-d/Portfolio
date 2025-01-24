@@ -20,6 +20,7 @@ const Page = () => {
          <StarsCanvas /> 
         <About />
         <Experience />
+        
         <Tech />
         
         <Works />

@@ -3,6 +3,7 @@ import {
    CYU,
   git,
   Avady,
+  Cpp,
   aptihealthWeb,
   linkedIn,
   github,
@@ -43,17 +44,31 @@ const services = [
 
 const technologies = [
   {
-    name: "C",
-    icon: C_language,
+    category: "Language de Programmation",
+    items: [
+      { name: "C", icon: C_language },
+      { name: "C++", icon: Cpp },
+
+      // Add other programming languages here
+    ],
   },
   {
-    name: "Git",
-    icon: git,
+    category: "Tools",
+    items: [
+      { name: "Git", icon: git },
+      { name: "Altium Designer", icon: Altium_Designer },
+      // Add other tools here
+    ],
   },
   {
-    name: "Altium_Designer",
-    icon: Altium_Designer,
+    category: "Systeme D'exploitation (OS)",
+    items: [
+      { name: "Git", icon: git },
+      { name: "Altium Designer", icon: Altium_Designer },
+      // Add other tools here
+    ],
   },
+  // Add more categories as needed
 ];
 
 const experiences = [

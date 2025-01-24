@@ -7,6 +7,8 @@ import CYU from "./_LOGOS/CYU.png";
 import Avady from "./_LOGOS/Avady.png";
 import Altium_Designer from "./_LOGOS/Altium_Designer.png";
 import git from "./_LOGOS/git.png";
+import Cpp from "./_LOGOS/C++.png";
+
 
 
 
@@ -56,6 +58,7 @@ export {
   github,
   Altium_Designer,
   git,
+  Cpp,
 
 
  IOT_Arduino_PI_InfluxDB,
